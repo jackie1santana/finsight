@@ -20,9 +20,12 @@ Cloud Services: AWS Lambda for serverless operations.
 dotnet new webapp -o MyRazorApp
 cd into app && dotnet run
 
-spring init --dependencies=web,data-jpa my-project
-cd my-app
-
+use only spring boot online 
+https://start.spring.io/
+only web services, rest deps.. others will break the app when running
+download the zip file and extract it
+cd into the folder and run mvn spring-boot:run
+port 8080
 
 in src/main/java in the demo file
 add 
